@@ -22,7 +22,7 @@
 <div align="left">
     <img align="left" src="https://img.icons8.com/ios_filled/512/228BE6/logitech.png" alt="Logitech" width="45" height="45">
     <b><p align="left">Logitech</b>
-    <br/>Open Logitech G Hub > Games And Applications > Select the game > click on scripting > paste the code or import the file</p>
+    <br/>Open G Hub > Games And Applications > Select game > click on scripting > paste the code or import</p>
 </div>
 
 <div align="left">
