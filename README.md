@@ -1,7 +1,7 @@
 <img align="right" src="https://github.com/user-attachments/assets/f5190770-e455-4dd9-964d-79f26734d191" alt="Preview" width="40%">
 
 <div align="left">
-  <img align="left" src="https://github.com/user-attachments/assets/5e70eb4a-730b-4ae6-a361-da6483fc1b4c" alt="Logo" width="90" height="90">
+  <img align="left" src="https://github.com/user-attachments/assets/b5d61160-15ea-4773-b94b-2270c3adfd72" alt="Logo" width="90" height="90">
 
   <h3 align="left">Recoil Control V1 by 9ineskulls </h3>
   <p align="left">The Best Logitech based Script in LUA</p>
