@@ -1,49 +1,24 @@
-<img align="right" src="https://github.com/user-attachments/assets/f5190770-e455-4dd9-964d-79f26734d191" alt="Preview" width="40%">
+## Installation
 
-<div align="left">
-  <img align="left" src="https://github.com/user-attachments/assets/b5d61160-15ea-4773-b94b-2270c3adfd72" alt="Logo" width="90" height="90">
+> [!IMPORTANT]  
+> make sure you use a version of Logitech G Hub that supports LUA scripts
 
-  <h3 align="left">Recoil Control V1 by 9ineskulls </h3>
-  <p align="left">The Best Logitech based Script in LUA</p>
+#### Installing via code
 
-  <br/>
+1. open the file in github or open the file via text editor or notepad
+2. open up Logitech G Hub and head over to `Games & Applications`
+3. find the game of choice or use the default profile it's up to you
+4. add a profile or edit a profile under `profiles`
+5. click on the `scripting` icon and paste the script
+6. in the top left you'll see `script` click that and click `save and run`
 
-  <a href="https://github.com/user-attachments/assets/f5190770-e455-4dd9-964d-79f26734d191"><strong> Code Preview</strong></a>
-  ・
-  <a href="https://discord.com/users/1120456393405771869">Ask Me Any Questions</a>
-  ・
-  <a href="https://github.com/9ineskulls">Check My Other Repos</a>
-</div>
-<br/>
+#### Installing via file
 
-## 📥 Installation
+1. download `recoilcontrol.lua` from <https://github.com/9ineskulls/recoilcontrol> - this repo
+2. follow the same steps in the code installation
+3. open `script` tab and click on `import` import the script
+4. in the top left you'll see `script` click that and click `save and run`
 
-<br/>
-<div align="left">
-    <img align="left" src="https://img.icons8.com/ios_filled/512/228BE6/logitech.png" alt="Logitech" width="45" height="45">
-    <b><p align="left">Logitech</b>
-    <br/>Open G Hub > Games And Applications > Select game > click on scripting > paste the code or import</p>
-</div>
-
-<div align="left">
-    <img align="left" src="https://cdn-icons-png.freepik.com/512/9167/9167082.png" alt="Reqs" width="45" height="45">
-    <b><p align="left">Requirements</b>
-    <br/> You need a Logitech mouse for this also this works on any version of G Hub with LUA integration
-</div><br/>
-
-## 🖌️ Customization
-
-<br/>
-<div align="left">
-    <img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/947px-Lua-Logo.svg.png" alt="LUA" width="45" height="45">
-    <b><p align="left">LUA</b>
-    <br/>Open in notepad , vscode or any text editor > find recoilmode = > put in any of the presets</p>
-</div>
-
-<div align="left">
-    <img align="left" src="https://cdn-icons-png.freepik.com/512/7133/7133331.png" alt="Preset" width="45" height="45">
-    <b><p align="left">Preset Choices</b>
-    <br/>LOW > MEDIUM > HIGH > ULTRA</p>
-</div>
+#### Example in game: PlayerUnknown's Battlegrounds
 
 https://github.com/user-attachments/assets/69770d53-71ea-49ac-becb-1312ed62452e
