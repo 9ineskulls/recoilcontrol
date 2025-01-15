@@ -4,9 +4,6 @@
 --        USE THIS AT UR OWN RISK        --
 -------------------------------------------
 
---// OUTPUT MESSAGE :3 \\--
-OutputLogMessage("9ineskulls loves you\n")
-
 --// CONFIG \\--
 local config = {
     enableRecoilControl = true,  -- // Whether recoil control is enabled or not
