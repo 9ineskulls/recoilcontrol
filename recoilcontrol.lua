@@ -1,10 +1,11 @@
--------------------------------------------
--- SCRIPT BY 9ineskulls , ANTI RECOIL V1 --
---      I'M NOT RESPONSIBLE FOR BANS     --
---        USE THIS AT UR OWN RISK        --
--------------------------------------------
+-- ]]
+-- @name           recoilcontrol
+-- @description    A Logitech G Hub LUA based recoil control mouse script / macro
+-- @author         9ineskulls
+-- @version        1.0
+-- ]]
 
---// CONFIG \\--
+-- ]] CONFIG [[ --
 local config = {
     enableRecoilControl = true,  -- // Whether recoil control is enabled or not
     requireToggleKey = true,     -- // Do we need a key press to toggle recoil control on/off?
@@ -12,7 +13,7 @@ local config = {
     recoilMode = "MEDIUM"           -- // Recoil control strength: LOW, MEDIUM, HIGH, ULTRA
 }
 
---// RECOIL SETTINGS \\--
+-- ]] RECOIL SETTINGS [[ --
 local recoilSettings = {
     LOW = { vertical = 3, horizontal = 0 },
     MEDIUM = { vertical = 7, horizontal = 0 },
@@ -20,22 +21,22 @@ local recoilSettings = {
     ULTRA = { vertical = 21, horizontal = 0 }
 }
 
---// FUNCTION MODE \\--
+-- ]] FUNCTION MODE [[ --
 local function getRecoilStrength(mode)
     return recoilSettings[mode] or recoilSettings["LOW"]
 end
 
---// FUNCTION ENABLE CHECK \\--
+-- ]] FUNCTION ENABLE CHECK [[ --
 local function isRecoilControlEnabled()
     return config.enableRecoilControl
 end
 
---// FUNCTION KEY CHECK \\--
+-- ]] FUNCTION KEY CHECK [[ --
 local function isToggleKeyActive()
     return not config.requireToggleKey or IsKeyLockOn(config.toggleKey) or IsKeyLockOn("ScrollLock")
 end
 
---// FUNCTION BUTTON MANAGE CHECK \\--
+-- ]] FUNCTION BUTTON MANAGE CHECK [[ --
 local function handleRecoilControl()
     local recoil = getRecoilStrength(config.recoilMode)
     if IsMouseButtonPressed(3) then
@@ -50,7 +51,7 @@ local function handleRecoilControl()
     end
 end
 
---// MAIN EVENT HANDLER \\--
+-- ]] MAIN EVENT HANDLER [[ --
 function OnEvent(event, arg)
     if isRecoilControlEnabled() and isToggleKeyActive() then
         handleRecoilControl()
