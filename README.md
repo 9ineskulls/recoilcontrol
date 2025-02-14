@@ -15,7 +15,7 @@
 #### Installing via file
 
 1. download `recoilcontrol.lua` from this repo
-2. follow the same steps in the code installation
+2. follow the same steps in the first code installation
 3. open `script` tab and click on `import` import the script
 4. in the top left you'll see `script` click that and click `save and run`
 
