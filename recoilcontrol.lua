@@ -10,7 +10,7 @@ local config = {
     enableRecoilControl = true,  -- // Whether recoil control is enabled or not
     requireToggleKey = true,     -- // Do we need a key press to toggle recoil control on/off?
     toggleKey = "CapsLock",      -- // The key used to toggle recoil control (CapsLock or ScrollLock)
-    recoilMode = "MEDIUM"           -- // Recoil control strength: LOW, MEDIUM, HIGH, ULTRA
+    recoilMode = "MEDIUM"        -- // Recoil control strength: LOW, MEDIUM, HIGH, ULTRA
 }
 
 -- ]] RECOIL SETTINGS [[ --
